@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Qhull"
+	id="sg.cinder.qhull"
+	author="Simon Geilfus"
+	summary="Qhull library for Cinder"
+	>
+	<supports os="macosx" />
+	<includePath>include</includePath>
+	<staticLibrary>libs/macosx/libqhullcpp.a</staticLibrary>
+	<staticLibrary>libs/macosx/libqhullstatic.a</staticLibrary>
+</block>
+</cinder>
